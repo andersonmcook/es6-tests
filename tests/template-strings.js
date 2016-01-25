@@ -25,7 +25,7 @@ yo`;
     expect(string).to.equal("hey\nyo");
   });
 
-  it('can evaluate expresions', function () {
+  it('can evaluate expressions', function () {
     var string = `${3 + 6}`;
     expect(string).to.equal("9");
   });
